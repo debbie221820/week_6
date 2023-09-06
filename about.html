@@ -9,36 +9,87 @@
     <link rel="stylesheet" href="/week_6/assets/main-e266ba6b.css">
   </head>
   <body>
-    <div class="nav py-4  border-bottom border-4 border-dark">
-    <div class="container">
-        <div class="nav-content d-flex justify-content-between ">
-            <div class="navtitle  d-flex align-items-center ">
-                <img src="  https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true "
-                    style="width: 53px; " alt="logo ">
-                <h2 class="fw-bolder ps-3  lh-4  m-0   align-text-bottom">7TAO </h2>
-                <span class="fw-bolder lh-3 ">活動訂票網</span>
+    <!-- nav -->
+
+<nav
+    class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between border border-3 border-top-0 border-bottom  border-start-0 border-end-0 border-dark ">
+    <div class="container py-2">
+        <!-- logo -->
+        <div class="row"></div>
+        <div class="container-fluid  d-flex justify-content-between ">
+
+            <div class="navtitle">
+                <a class="navbar-brand  d-flex justify-content-between align-items-center" href="#">
+                    <img src="  https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true "
+                        style="width: 53px; " alt="logo ">
+                    <h2 class="fw-bolder ps-3 lh-4 m-0   align-text-bottom">7TAO </h2>
+                    <span class="fw-bolder lh-3 m-1 " style="font-size: 16px;">活動訂票網</span>
+                </a>
+            </div>
+            <!-- 放大鏡按鈕 -->
+            <button class="navbar-toggler  ms-auto me-0;
+            " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- nav end -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex justify-content-between ">
+                    <!-- 探索活動 -->
+                    <div class="d-flex justify-content-between ">
+                        <form class="d-flex ">
+                            <input class="form-control" type="search" placeholder="探索活動" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit"></button>
+                        </form>
+                        <!-- login -->
+                        <div class="logn  ">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active " aria-current="page" href="#">
+                                        <span class="material-symbols-outlined  align-text-bottom">
+                                            description </span>
+                                        REGISTER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <span class="material-symbols-outlined ps-4 align-text-bottom">
+                                            person
+                                        </span>
+                                        LOGIN</a>
+                                </li>
+                        </div>
+                    </div>
+
+
+                    <!-- 漢堡  |||   -->
+                    <button class="navbar-toggler   ms-auto me-0 ;
+            " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-lnfo"></span>
+                    </button>
+                </div>
+                <!-- <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   -->
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a>1111</li>
+                    <li><a class="dropdown-item" href="#">Another action</a>11111</li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a>1111</li>
+                </ul>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul> -->
 
             </div>
-            <div class="nav-group d-flex  align-items-center ff">
-                <div class="REGISTER ff  "><span class="material-symbols-outlined  align-text-bottom">
-                        description
-                    </span> REGISTER </div>
-                    <div class="LOGIN "><span class="material-symbols-outlined ps-4 align-text-bottom">
-                        person
-                    </span>LOGIN </div>
-            </div>
         </div>
-        </div>
-        </div>
-
-
-
     </div>
-
-
-</div>
-
-
+</nav>
 
 
 
